@@ -37,7 +37,7 @@ body {
   font-family: sans-serif;
   background-color: #aaa;
   min-height: 1000px;
-  background-color: #272A2B;
+  background-color: #313334;
 }
 
 #canvas {
@@ -92,12 +92,13 @@ body {
   padding: 20px;
   position: absolute;
   background-color: #b30000;
-  color: #fff;
-  top: 155px;
+  color: #eee;
+  top: 195px;
   left: calc(50% + 10px);
   display: inline-block;
   margin: auto;
   border-radius: 3px;
+  border: 1px solid #eee;
 }
 
 #new-game-button:hover {
@@ -123,11 +124,16 @@ form {
   top: 50px;
   width: 220px;
   height: 150px;
-  left: calc(50% - 320px);
+  left: calc(50% - 250px);
   text-align: center;
   background-color: #aaa;
   border-radius: 3px;
   border: 1px solid #eee;
+}
+
+#form-header {
+  font-size: 22px;
+  text-decoration: underline;
 }
 
 h3 {
@@ -163,4 +169,11 @@ h3 {
 h1 {
   font-size: 50px;
   color: white;
+}
+
+h2 {
+  color: #fff;
+  font-size: 18px;
+  width: 690px;
+  margin: auto;
 }
