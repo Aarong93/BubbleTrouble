@@ -36,11 +36,17 @@ body {
   text-align: center;
   font-family: sans-serif;
   background-color: #aaa;
+  min-height: 1000px;
+  background-color: #272A2B;
 }
 
 #canvas {
-  display: inline;
-  margin-top: 150px;
+  display: block;
+  margin: auto;
+  border: 1px solid #eee;
+  width: 700px;
+  height: 450px;
+  margin-top: 75px;
   background-image: url(background.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -55,26 +61,40 @@ body {
 
 #lost-message {
   position: relative;
-  bottom: 350px;
+  bottom: 355px;
   color: red;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 #won-message {
   position: relative;
-  bottom: 350px;
+  bottom: 355px;
   color: #66FF00;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
 }
+
+
+#play-again {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 480px;
+  display: block;
+  margin: auto;
+  position: relative;
+  padding-top: 158px;
+}
+
 #new-game-button {
   padding: 20px;
   position: absolute;
   background-color: #b30000;
   color: #fff;
-  top: 75px;
-  left: calc(50% - 75px);
+  top: 155px;
+  left: calc(50% + 10px);
   display: inline-block;
   margin: auto;
   border-radius: 3px;
@@ -85,17 +105,62 @@ body {
   background-color: #800000;
 }
 
-#play-again {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  display: block;
-  margin: auto;
-  bottom: 482px;
-  position: relative;
-  padding-top: 158px;
-}
-
 #play-again:hover {
   cursor: default;
+}
+
+#score {
+  color: white;
+  font-size: 24px;
+  position: relative;
+  bottom: 440px;
+  right: 275px;
+}
+
+form {
+  position: relative;
+  font-size: 18px;
+  top: 50px;
+  width: 220px;
+  height: 150px;
+  left: calc(50% - 320px);
+  text-align: center;
+  background-color: #aaa;
+  border-radius: 3px;
+  border: 1px solid #eee;
+}
+
+h3 {
+  position: absolute;
+  top: 70px;
+  left: 5px;
+}
+
+#survival {
+  position: absolute;
+  top: 41px;
+  left: 78px;
+}
+
+#survival-label {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+#classic-label {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+}
+
+#classic {
+  position: absolute;
+  top: 41px;
+  left: 190px;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
 }
