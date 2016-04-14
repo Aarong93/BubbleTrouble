@@ -34,14 +34,68 @@ body {
   min-width: 800px;
   width: 100%;
   text-align: center;
+  font-family: sans-serif;
+  background-color: #aaa;
 }
 
 #canvas {
-  background-color: #000;
   display: inline;
-  margin-top: 50px;
+  margin-top: 150px;
+  background-image: url(background.png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .hide {
   display: none;
+}
+
+#lost-message {
+  position: relative;
+  bottom: 350px;
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#won-message {
+  position: relative;
+  bottom: 350px;
+  color: #66FF00;
+  font-weight: bold;
+  font-size: 24px;
+}
+#new-game-button {
+  padding: 20px;
+  position: absolute;
+  background-color: #b30000;
+  color: #fff;
+  top: 75px;
+  left: calc(50% - 75px);
+  display: inline-block;
+  margin: auto;
+  border-radius: 3px;
+}
+
+#new-game-button:hover {
+  cursor: pointer;
+  background-color: #800000;
+}
+
+#play-again {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  bottom: 482px;
+  position: relative;
+  padding-top: 158px;
+}
+
+#play-again:hover {
+  cursor: default;
 }
