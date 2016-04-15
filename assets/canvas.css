@@ -169,11 +169,16 @@ h3 {
 h1 {
   font-size: 50px;
   color: white;
+  margin-top: 40px;
 }
 
 h2 {
   color: #fff;
-  font-size: 18px;
-  width: 690px;
+  font-size: 24px;
+  width: 600px;
+  line-height: 1.5;
+  position: relative;
+  display: block;
+  bottom: 320px;
   margin: auto;
 }

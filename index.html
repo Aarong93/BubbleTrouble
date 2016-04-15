@@ -8,11 +8,6 @@
   </head>
   <body>
     <h1>Poke Trouble</h1>
-    <h2>
-      Help Pikachu escape capture!<br>
-      Use the right and left arrow key to move back and forth.
-      Press space to zap pokeballs!
-    </h2>
     <script src="lib/bubble.js"></script>
     <script src="lib/game.js"></script>
     <script src="lib/gameview.js"></script>
@@ -35,6 +30,11 @@
     <div id="won-message">You Escaped!</div>
     <div id="new-game-button">Start a new game</div>
     <div id="play-again">Press S to play again</div>
+    <h2>
+      Help Pikachu escape capture!<br>
+      Use the right and left arrow key to move back and forth.
+      Press space to zap pokeballs.
+    </h2>
 
     <img id="pika" class="hide" src="pika.png"></img>
     <img id="lightning" class="hide" src="lightning.png"></img>
@@ -60,6 +60,7 @@
         var gameView = new BubbleTrouble.GameView(game, c);
         $("#new-game-button").bind("click" , function() {
           game.restart();
+          $("h2").hide();
           if (!gameView.running) {
             gameView.start(c);
           }
