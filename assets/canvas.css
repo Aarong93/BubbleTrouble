@@ -28,6 +28,16 @@ footer, header, hgroup, menu, nav, section {
  display: block;
 }
 
+.group::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
 
 body {
   height: 100%;
@@ -181,4 +191,22 @@ h2 {
   display: block;
   bottom: 320px;
   margin: auto;
+}
+
+footer {
+  color: #aaa;
+  width: 600px;
+  margin: auto;
+}
+
+footer > ul > li {
+  float: left
+  padding: 10px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+footer > ul > li > a:hover {
+  cursor: pointer;
+  color: #fff;
 }
