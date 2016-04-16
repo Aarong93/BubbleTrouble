@@ -16,9 +16,9 @@
 
     <form id="select-mode"><span id="form-header">Pick a Game Mode</span><br>
       <p id="survival-label">Survival</p>
-      <input type="radio" id="survival" value="survival" name="mode" label="Survival" checked></input>
+      <input type="radio" id="survival" value="survival" name="mode" label="Survival"></input>
       <p id="classic-label">Classic</p>
-      <input type="radio" id="classic" name="mode" value="classic" label="Classic"></input>
+      <input type="radio" id="classic" name="mode" value="classic" label="Classic" checked></input>
       <h3 id="survival-mode-description">Break as many pokeballs as you can before you get caught</h3>
       <h3 id="classic-mode-description">Break all the pokeballs to escape!</h3>
     </form>
@@ -29,7 +29,7 @@
     <div id="lost-message">You Got Caught!</div>
     <div id="won-message">You Escaped!</div>
     <div id="new-game-button">Start a new game</div>
-    <div id="play-again">Press S to play again</div>
+    <div id="play-again">Press S or Enter to play again</div>
     <h2>
       Help Pikachu escape capture!<br>
       Use the left and right arrow key to move back and forth.<br>
@@ -42,7 +42,7 @@
 
     <script>
       $(function() {
-        $("#classic-mode-description").hide();
+        $("#survival-mode-description").hide();
         $("#survival").bind("click", function (e) {
           e.stopPropagation();
           $("#classic-mode-description").hide();

@@ -56,7 +56,7 @@ body {
   border: 1px solid #eee;
   width: 700px;
   height: 450px;
-  margin-top: 75px;
+  margin-top: 55px;
   background-image: url(background.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -103,7 +103,7 @@ body {
   position: absolute;
   background-color: #b30000;
   color: #eee;
-  top: 195px;
+  top: 210px;
   left: calc(50% + 10px);
   display: inline-block;
   margin: auto;
@@ -131,7 +131,7 @@ body {
 form {
   position: relative;
   font-size: 18px;
-  top: 50px;
+  top: 20px;
   width: 220px;
   height: 150px;
   left: calc(50% - 250px);
@@ -197,6 +197,9 @@ footer {
   color: #aaa;
   width: 600px;
   margin: auto;
+  position: absolute;
+  top: 790px;
+  left: calc(50% - 280px);
 }
 
 footer > ul > li {
