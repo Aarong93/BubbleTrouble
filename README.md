@@ -7,9 +7,11 @@ Features two game modes, classic and survival.
 
 [live]: http://aarong93.github.io/Poke-Trouble/
 
-## Screen Shot
+## Screen Shots
 
-[![live](./picture.png)](http://aarong93.github.io/Poke-Trouble/)
+[![live](./images/picture.png)](http://aarong93.github.io/Poke-Trouble/)
+
+[![live](./images/picture2.png)](http://aarong93.github.io/Poke-Trouble/)
 
 ## Technical Details
 
