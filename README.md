@@ -1,6 +1,7 @@
 # Poke Trouble
 
-Poke Trouble is a Pokemon themed web game inspired by the game Bubble Trouble. Features to game modes, classic and survival.
+Poke Trouble is a Pokemon themed web game inspired by the game Bubble Trouble.
+Features two game modes, classic and survival.
 
 [Play the game!][live]
 
@@ -13,3 +14,4 @@ Poke Trouble is a Pokemon themed web game inspired by the game Bubble Trouble. F
 ## Technical Details
 
 - Poke Trouble is built using HTML 5 Canvas, Javascript, and jQuery
+- HTML Canvas is lightweight and mobile friendly allowing for a constant 60 fps
